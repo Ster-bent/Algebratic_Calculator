@@ -1,4 +1,12 @@
 import numpy
 import matplotlib.pyplot as plt
 
-print("hello")
+#gooclass
+def variable_insert():
+  ui = int(input())
+  uiv = str(input())
+  uiv = ui
+def equation_insert():
+  equation = int(input())
+  if '+' and '=' in equation:
+    print(equation)
